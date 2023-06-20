@@ -1,0 +1,18 @@
+{
+  "empresa": [
+    {
+      "id": 1,
+      "name": "amazon",
+      "email": "amazon@gmail.com",
+      "resp": "Airton",
+      "cnpj": "11.111.111/1111-11"
+    },
+    {
+      "id": 2,
+      "name": "lojas cem",
+      "email": "lojascem@gmail.com",
+      "resp": "Samuel",
+      "cnpj": "22.222.222/2222-22"
+    }
+  ]
+}

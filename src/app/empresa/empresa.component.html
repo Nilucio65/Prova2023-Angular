@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-8 m-auto">
+    <form [formGroup]="formGroupEmpresa">
+
+      <div class="mb-3">
+        <label for="name" class="form-label">Nome:</label>
+        <input type="email" formControlName="name" class="form-control" id="name" placeholder="name">
+      </div>
+
+	    <div class="mb-3">
+        <label for="email" class="form-label">email:</label>
+        <input type="email" formControlName="email" class="form-control" id="name" placeholder="email">
+      </div>
+
+      <div class="mb-3">
+        <label for="resp" class="form-label">Responsavel:</label>
+        <input type="email" formControlName="resp" class="form-control" id="resp" placeholder="Responsavel">
+      </div>
+
+      <div class="mb-3">
+        <label for="cnpj" class="form-label">CNPJ:</label>
+        <input type="email" formControlName="cnpj" class="form-control" id="cnpj" placeholder="11.111.111/1111-11">
+      </div>
+
+      <div class="mb-3 d-flex justify-content-end">
+        <button class="btn btn-primary" (click)="Save()">Salvar</button>
+      </div>
+
+</form>
+
+
+</div>
+</div>
