@@ -46,4 +46,11 @@ Save(){
     this.loadEmpresas();
   }
 
+  Exluir(empresas: Empresa): void{
+    this.empresaService.remove(empresas).subscribe({
+      next:() => this.loadEmpresas()
+
+    });
+  }
+
 }
