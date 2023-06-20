@@ -33,4 +33,17 @@ Save(){
     )
     }
 
+    loadEmpresas(){
+      this.empresaService.getEmpresa().subscribe(
+        {
+            next:  data =>  this.empresa = data,
+            error: msg  => console.log("Erro ao chamar o endpont " + msg)
+        }
+      )
+  }
+
+  ngOnInit(): void {
+    this.loadEmpresas();
+  }
+
 }
